@@ -4,7 +4,7 @@ index:
   tags: Tags
   friends: Friends
   about: About Me
-  more: more
+  more: More
   copy: Copy
 
 # Tables of Contents
@@ -28,6 +28,11 @@ copyright_info:
   license: License
   cc: "CC BY-NC-SA 4.0"
   notice: "Keep Link & Author if Distribute."
+  history: History
+  github_blame: "View update history for each part in sequence"
+  github_history: "View update history"
+  raw: Text Mode
+  github_raw: "View raw file"
 
 tooltip:
   tocButton: Show or Hide Table of Contents
