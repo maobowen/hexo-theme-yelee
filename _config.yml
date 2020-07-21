@@ -204,7 +204,7 @@ open_in_new:
   mini_archives: true # 迷你归档
   menu: false # 边栏菜单
   friends: true  # 友情链接
-  socail: true # 社交图标
+  social: true # 社交图标
 
 # Customize feed link 自定义订阅地址
 rss: /atom.xml
@@ -243,7 +243,7 @@ fancybox: true
 ## https://www.mathjax.org/
 mathjax: false
 
-# Socail Share | 是否开启分享
+# Social Share | 是否开启分享
 share: 
   on: true
   baidu: true

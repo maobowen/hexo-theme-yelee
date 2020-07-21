@@ -12,7 +12,7 @@
             <% if (theme.open_in_new.mini_archives) { %> miniArchives: "a.post-list-link", <% } %>
             <% if (theme.open_in_new.menu) { %> menu: ".header-menu a", <% } %>
             <% if (theme.open_in_new.friends) { %> friends: "#js-friends a", <% } %>
-            <% if (theme.open_in_new.socail) { %> socail: ".social a" <% } %>
+            <% if (theme.open_in_new.social) { %> social: ".social a" <% } %>
         }
         for (var x in oOpenInNew) {
             $(oOpenInNew[x]).attr("target", "_blank");
