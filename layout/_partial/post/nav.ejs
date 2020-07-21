@@ -4,6 +4,13 @@
         <p><span><%= __('copyright_info.author') %>:</span><a href="<%- url_for('/') %>" title="<%= __('tooltip.back2home') %>"><%=theme.author%></a></p>
         <p><span><%= __('copyright_info.date') %>:</span><%= post.date.format("YYYY-MM-DD, HH:mm:ss") %></p>
         <p><span><%= __('copyright_info.updated') %>:</span><%= post.updated.format("YYYY-MM-DD, HH:mm:ss") %></p>
+        <p> 
+            <span><%= __('copyright_info.history') %>:</span><i class="fa fa-github"></i>
+            <a href="https://github.com/maobowen/blog/blame/src/source/_posts/<%= post.slug %>.md" title="<%= __('copyright_info.github_blame') %>" target = "_blank">Blame</a>,
+            <a href="https://github.com/maobowen/blog/commits/src/source/_posts/<%= post.slug %>.md" title="<%= __('copyright_info.github_history') %>" target = "_blank">History</a>
+            <span class="raw"><%= __('copyright_info.raw') %>:</span><i class="fa fa-file-text-o"></i>
+            <a href="https://github.com/maobowen/blog/raw/src/source/_posts/<%= post.slug %>.md" title="<%= __('copyright_info.github_raw') %>" target = "_blank"><%= post.slug %>.md</a>
+        </p>
         <p>
             <span><%= __('copyright_info.url') %>:</span><a class="post-url" href="<%- url_for(post.path) %>" title="<%= post.title %>"><%= post.permalink %></a>
             <span class="copy-path" data-clipboard-text="<%= __('copyright_info.from') %> <%= post.permalink %>　　<%= __('copyright_info.by') %> <%=theme.author%>" title="<%= __('tooltip.copyPath') %>"><i class="fa fa-clipboard"></i></span>
